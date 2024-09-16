@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("img/pozadina.jpg");
+    padding-bottom: 100px;
+    color: #fff;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.4) 0 0 0 10000px inset;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo{
+    text-align: center;
+}
+#loginForm{
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+.main-wrapper{
+    max-width: 650px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.3);
+    padding: 40px;
+}
+form div{
+    padding: 15px 0;
+}
+form div label{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+form div input{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 10px;
+}
+button{
+    cursor: pointer;
+}
+form div button{
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.noAccount{
+    text-align: center;
+    margin-top: 30px;
+}
+.noAccount button{
+    padding: 10px;
+    font-size: 18px;
+}
+.noAccount p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.regWindow{
+    display: none;
+    background-color: black;
+    box-shadow: rgba(255,255,255,0.8)0 0 1000px 1000px;
+    max-width: 650px;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.regWindow button#closeWindow{
+    height: 20px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 25px;
+    position: absolute;
+    font-weight: bold;
+    right: 30px;
+    top: 30px;
+}
+form ul li{
+    color: red;
+}
+form ul{
+    list-style: none;
+}
+.inner-container{
+    border: 1px solid black;
+    padding: 15px;
+}
+.inner-container.left-side{
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.4) 0 0 0 10000px inset;
+
+}
+.inner-container img.profile{
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    margin-bottom: 5px;
+}
+.inner-container.right-side form{
+   display: flex;
+    height: 100px;
+}
+.inner-container.right-side form textarea{
+    width: 85%;
+    border: 0;
+    padding: 10px;
+    resize: none;
+    outline-color: black;
+}
+.inner-container.right-side form button{
+    width: 15%;
+    border: 0;
+    padding: 10px;
+    resize: none;
+    outline-color: black;
+}
+#editAccount {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#editAccount:hover {
+    background-color: #218838;
+}
+
+#logout {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#logout:hover {
+    background-color: #c82333;
+}
+
+#deleteProfile{
+    border: 2px solid red;
+    color: red;
+    padding: 5px 15px;
+}
+#allPostsWrapper .single-post{
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-top: 15px;
+    color: black;
+}
+#allPostsWrapper .single-post .post-content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+#allPostsWrapper .single-post .post-actions {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+#allPostsWrapper .single-post .post-actions div button.like-btn {
+    background-image: url('img/like.png');
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+}
+
+#allPostsWrapper .single-post .post-actions div button.comment-btn {
+    background-image: url('img/comment.png');
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+}
+
+#allPostsWrapper .single-post .post-actions div button.remove-btn {
+    border-color: red;
+    color: red;
+    padding: 5px 15px;
+}
+
+#allPostsWrapper .single-post .post-comments form {
+    height: 30px;
+    margin-top: 15px;
+}
