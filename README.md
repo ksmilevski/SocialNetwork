@@ -26,7 +26,6 @@ This project serves as a practical introduction to:
 - **Data Management:** [MockAPI](https://mockapi.io) for simulating RESTful backend services
 
 ## 🚀 Learning Outcomes
-This project is ideal for beginners aiming to:
 - Practice JavaScript DOM manipulation and event handling
 - Understand the flow of a typical web app (login → session → data interaction)
 - Work with external APIs to perform CRUD operations
